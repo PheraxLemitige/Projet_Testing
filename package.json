@@ -1,0 +1,29 @@
+{
+  "name": "bowling",
+  "version": "1.0.0",
+  "description": "Dans cet exercice au TDD, nous avons besoin d'un code pour comptabiliser les points d'une partie de bowling.",
+  "main": "bowling.spec.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vfourny/bowling.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vfourny/bowling/issues"
+  },
+  "homepage": "https://github.com/vfourny/bowling#readme",
+  "dependencies": {
+    "jest": "^29.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "babel-jest": "^29.5.0",
+    "husky": "^8.0.3"
+  }
+}
